@@ -1,6 +1,5 @@
 const exporting = {
-    messageSuccess: "File saved successfully",
-    messageError: "Error saving file"
+    PORT: 3500,
 }
 
 export default exporting;
