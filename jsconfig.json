@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "watch": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "dist",
+        "docs",
+        "scripts",
+        "test",
+        "typings",
+        "coverage",
+        "*.d.ts"
+    ],
+}
