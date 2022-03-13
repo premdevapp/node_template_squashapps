@@ -20,7 +20,8 @@
     "awilix": "^6.1.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "socket.io": "^4.4.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
