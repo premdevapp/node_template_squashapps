@@ -4,6 +4,7 @@ const inject = awilix.createContainer({
   injectionMode: awilix.InjectionMode.PROXY,
 });
 inject.register({ messageSuccess: awilix.asValue(values.messageSuccess) });
+inject.register({ messageDelete: awilix.asValue(values.messageDelete) });
 inject.register({ messageError: awilix.asValue(values.messageError) });
 inject.register({
   mes: awilix.asFunction(function () {
